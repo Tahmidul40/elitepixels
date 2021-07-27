@@ -1,6 +1,6 @@
 # FREEBIE Website design Coded by me!
 
-![Design](./design/design.png)
+![Design](./design/design.jpg)
 
 ## Welcome! 👋
 
