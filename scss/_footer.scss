@@ -1,0 +1,57 @@
+.footer {
+  padding: 260px 0 80px;
+  background-color: $primary;
+  color: $light;
+  position: relative;
+
+  .social {
+    width: 750px;
+    height: 330px;
+    background-color: $dark;
+    border-left: 8px solid $primary;
+    position: absolute;
+    top: -160px;
+    left: 0;
+    padding: 100px 127px;
+
+    @include desktop {
+      padding: 100px 30px;
+    }
+
+    @include tablet {
+      max-width: 360px;
+    }
+
+    p {
+      font-size: 33px;
+      font-weight: 300;
+      letter-spacing: -1.125;
+      margin-bottom: 30px;
+    }
+
+    .icon {
+      i {
+        font-size: 28px;
+        margin-right: 16px;
+        color: $secondary;
+      }
+    }
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      font-size: 20px;
+      font-weight: 300;
+      letter-spacing: -1px;
+    }
+
+    a {
+      color: $light;
+      text-decoration: underline;
+    }
+  }
+}
